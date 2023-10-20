@@ -1,0 +1,2 @@
+SELECT * FROM Staff LIMIT 3;
+SELECT * FROM Students WHERE age > 20 ORDER BY date_of_birth DESC LIMIT 2;
