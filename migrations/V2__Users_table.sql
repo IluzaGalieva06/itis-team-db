@@ -1,5 +1,5 @@
 CREATE TABLE Users (
-    ID INT UNIQUE PRIMARY KEY,
+    ID SERIAL PRIMARY KEY,
     LastName VARCHAR(255) NOT NULL CHECK (LastName ~ '^[A-ZА-Я][a-zа-я]*$'),
     FirstName VARCHAR(255) NOT NULL CHECK (FirstName ~ '^[A-ZА-Я][a-zа-я]*$'),
     Patronymic VARCHAR(255) NOT NULL DEFAULT '-' CHECK (Patronymic ~ '^[A-ZА-Я][a-zа-я]*$'),
