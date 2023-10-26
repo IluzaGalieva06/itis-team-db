@@ -50,4 +50,3 @@ ALTER TABLE medicaments ALTER COLUMN name SET NOT NULL;
 ALTER TABLE medicaments ALTER COLUMN manual SET NOT NULL;
 ALTER TABLE medicaments ALTER COLUMN side_effects SET NOT NULL;
 ALTER TABLE medicaments ADD CONSTRAINT unique_medicaments UNIQUE (name);
-
