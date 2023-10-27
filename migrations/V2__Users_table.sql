@@ -19,5 +19,3 @@ comment on column Users.Profession is 'Профессия';
 comment on column Users.Nationality is 'Национальность';
 comment on column Users.PhoneNumber is 'Номер телефона';
 comment on column Users.Email is 'Электронная почта';
-
-
